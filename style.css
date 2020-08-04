@@ -27,16 +27,27 @@ body {
 #post {
     width: 80%;
     min-height: 100px;
-    background-color: #f5f5f5;
     margin-top: 2em;
+    display: flex;
 }
 
 #post_content {
     text-align: justify;
     font-size: large;
     line-height: 150%;
+    width: 65%;
+    padding-right: 2em;
+    border-right: 1px #919191 solid;
 }
 
 #post_content p {
     padding-bottom: 1em;
+}
+
+#sidebar {
+    padding-left: 2em;
+    text-align: justify;
+    font-size: large;
+    width: 35%;
+    line-height: 150%;
 }
