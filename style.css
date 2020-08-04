@@ -47,7 +47,11 @@ body {
     width: 80%;
     min-height: 100px;
     margin-top: 2em;
-    display: flex;
+    display: flexbox;
+}
+
+#post_row {
+    display: table-row;
 }
 
 #post_content {
@@ -57,6 +61,7 @@ body {
     width: 65%;
     padding-right: 2em;
     border-right: 1px #919191 solid;
+    display: table-cell;
 }
 
 #post_content p {
@@ -69,6 +74,7 @@ body {
     font-size: large;
     width: 35%;
     line-height: 150%;
+    display: table-cell;
 }
 
 footer {
@@ -93,5 +99,27 @@ footer {
 
     #favicon {
         display: none;
+    }
+
+    #post_row,
+    #post_content,
+    #sidebar {
+        display: grid;
+    }
+
+    #post_content,
+    #sidebar {
+        border-right: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    #post_content {
+        border-bottom: 1px #919191 solid;
+        padding-bottom: 2em;
+    }
+
+    #sidebar {
+        padding-top: 2em;
     }
 }
