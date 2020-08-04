@@ -7,7 +7,7 @@
 				Soy un desarrollador de software full-stack, activamente trabajando en lenguajes como Java, PHP, Kotlin y Python. En general, admiro a la gente que insiste en encontrar formas de emocionarse.
 			</p>
 			<p>
-				telescopeActualmente estoy trabajando como desarrollador y consultor independiente en Hidalgo, México.
+				:telescope:Actualmente estoy trabajando como desarrollador y consultor independiente en Hidalgo, México.
 			</p>
 			<p>
     			:seedling:Estoy aprendiendo acerca de React JS y React Native (Nunca parar de aprender)
