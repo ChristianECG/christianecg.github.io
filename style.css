@@ -6,7 +6,7 @@
 
 header {
     background-color: #000d45;
-    padding: 1.5em 0em 1.5em 5em;
+    padding: 2.5em 0em 2.5em 5em;
     color: #fff;
 }
 
@@ -17,11 +17,19 @@ header {
 
 #page_description {
     font-size: large;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 body {
     background-color: #fff;
+}
+
+.sidebar_img {
+    width: 80%;
+}
+
+#sidebar_head {
+    text-align: center;
 }
 
 #post {
