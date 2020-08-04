@@ -10,6 +10,12 @@ header {
     color: #fff;
 }
 
+#favicon img {
+    width: 3em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
 #page_name {
     font-size: x-large;
     font-weight: bolder;
