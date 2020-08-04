@@ -6,8 +6,13 @@
 
 header {
     background-color: #000d45;
-    padding: 2.5em 0em 2.5em 5em;
+    padding: 2.5em 0em 2.5em 15em;
     color: #fff;
+
+    background-image: url('img/favicon.png');
+    background-size: 7em;
+    background-repeat: no-repeat;
+    background-position: 6em;
 }
 
 #favicon img {
