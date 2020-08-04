@@ -19,3 +19,7 @@ header {
     font-size: large;
     font-weight: bold;
 }
+
+body {
+    background-color: #f5f5f5;
+}
