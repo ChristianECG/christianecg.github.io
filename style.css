@@ -83,6 +83,7 @@ footer {
 @media only screen and (max-width: 720px) {
     header {
         padding: 2.5em 0;
+        background-image: none;
     }
 
     #header {
