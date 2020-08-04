@@ -47,11 +47,7 @@ body {
     width: 80%;
     min-height: 100px;
     margin-top: 2em;
-    display: flexbox;
-}
-
-#post_row {
-    display: table-row;
+    display: flex;
 }
 
 #post_content {
@@ -61,7 +57,7 @@ body {
     width: 65%;
     padding-right: 2em;
     border-right: 1px #919191 solid;
-    display: table-cell;
+    display: block;
 }
 
 #post_content p {
@@ -74,7 +70,7 @@ body {
     font-size: large;
     width: 35%;
     line-height: 150%;
-    display: table-cell;
+    display: block;
 }
 
 footer {
