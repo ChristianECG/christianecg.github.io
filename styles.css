@@ -13,7 +13,7 @@
     --orange-variant: #c53800;
 
     --error-color: #b00020;
-    --white-color: #ffffff;
+    --white-color: #f7f7f7;
     --black-color: #000000;
 }
 
@@ -64,8 +64,6 @@ html {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.5px;
-
-    scroll-behavior: smooth;
 }
 
 button {
@@ -73,4 +71,84 @@ button {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1.25px;
+}
+
+html {
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
+    background-color: var(--white-color);
+}
+
+p {
+    margin-top: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    h3 {
+        font-size: 38px;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    #about>section {
+        padding-right: 2rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 65px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #about>section {
+        display: block !important;
+        padding-right: 5rem;
+        padding-left: 4rem;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    h6 {
+        text-align: center;
+    }
+
+    #about>section {
+        padding-right: 2rem;
+        padding-left: 1rem;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 500px) {
+    h3 {
+        font-size: 25px;
+    }
+
+    #about>section {
+        padding-right: 1rem;
+        padding-left: 0rem;
+    }
 }
