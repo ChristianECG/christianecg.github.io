@@ -87,6 +87,48 @@ img {
     width: 100%;
 }
 
+.arrow__down {
+    border: solid;
+    border-width: 0 5px 5px 0;
+    padding: 10px;
+    width: 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 50px;
+}
+
+.arrow__up {
+    border: solid;
+    border-width: 0 5px 5px 0;
+    padding: 10px;
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    margin: 50px;
+    width: 0;
+}
+
+.arrow__white {
+    border-color: var(--white-color);
+}
+
+.arrow__dark {
+    border-color: var(--black-color);
+}
+
+.social__icons a {
+    text-decoration: none;
+    color: var(--white-color);
+    margin-right: 0.2rem;
+}
+
+.social__icons i {
+    background-color: var(--blue-primary);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+}
+
 @media (max-width: 1000px) {
     h3 {
         font-size: 38px;
@@ -99,6 +141,14 @@ img {
     #about>section {
         padding-right: 2rem;
         padding-left: 1rem;
+    }
+
+    #talks>article {
+        width: 100% !important;
+    }
+
+    #talks>h6 {
+        padding-bottom: 1rem;
     }
 }
 
@@ -115,6 +165,10 @@ img {
         display: block !important;
         padding-right: 5rem;
         padding-left: 4rem;
+    }
+
+    #talks>section {
+        grid-template-columns: 100% !important;
     }
 }
 
@@ -147,8 +201,12 @@ img {
         font-size: 25px;
     }
 
-    #about>section {
+    #about>section>section {
         padding-right: 1rem;
         padding-left: 0rem;
+    }
+
+    #about>section>section iframe {
+        width: 100% !important;
     }
 }
