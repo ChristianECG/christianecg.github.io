@@ -22,6 +22,7 @@ const content = `
 const profile = `
     width: 11rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     border: var(--black-color) 3px solid;
     border-radius: 50%;
     align-self: flex-start;
