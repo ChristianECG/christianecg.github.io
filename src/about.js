@@ -34,11 +34,13 @@ const arrow = `
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     margin-top: 50px;
+    margin-bottom: 50px;
 `;
 
 export default function getAboutMe() {
     return `
         <section id='about' style='${styles}'>
+            <a href='#home'><p class='arrow__up arrow__dark'></p></a>
             <section class='img-text' style='${content}'>
                 <div>
                     <center>
@@ -61,9 +63,35 @@ export default function getAboutMe() {
                         Información y Comunicaciones en ITSOEH, desarrollador
                         backend. Amante de los gatos y el buen café.
                     </p>
+                    <p class='social__icons'>
+                        <a href='https://twitter.com/ChristianECG_' target='_blank'>
+                            <i class="fab fa-twitter"
+                                style='background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);'>
+                            </i>
+                        </a>
+                        <a href='https://www.instagram.com/christianeliascg/' target='_blank'>
+                            <i class="fab fa-instagram"
+                                style='background-image:
+                                    linear-gradient(43deg,
+                                        #4158D0 0%,
+                                        #C850C0 46%,
+                                        #FFCC70 100%);'>
+                            </i>
+                        </a>
+                        <a href='https://www.linkedin.com/in/christianeliascg/' target='_blank'>
+                            <i class="fab fa-linkedin"
+                                style='background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);'>
+                            </i>
+                        </a>
+                        <a href='https://github.com/ChristianECG' target='_blank'>
+                            <i class="fab fa-github"
+                                style='background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);'>
+                            </i>
+                        </a>
+                    </p>
                 </div>
             </section>
-            <a href='#about'><p style='${arrow}'></p></a>
+            <a href='#talks'><p class='arrow__down arrow__dark'></p></a>
         </section>
     `;
 }
