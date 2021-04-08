@@ -173,6 +173,11 @@ img {
     #talks>section {
         grid-template-columns: 100% !important;
     }
+
+    #talks a.talk {
+        align-self: flex-start !important;
+        margin-left: 1rem;
+    }
 }
 
 @media (max-width: 650px) {
@@ -196,6 +201,10 @@ img {
 
     p {
         text-align: justify;
+    }
+
+    #talks a.talk {
+        margin-left: 0;
     }
 }
 
